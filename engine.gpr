@@ -1,0 +1,8 @@
+
+project Engine is
+  for Source_Dirs use ("engine_src/");
+  for Object_Dir use "obj_engine";
+  for Library_Dir use "lib_engine";
+  for Library_Name use "engine";
+  for Library_Kind use "dynamic";
+end Engine;
